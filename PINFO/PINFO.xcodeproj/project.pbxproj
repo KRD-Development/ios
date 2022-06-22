@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE62C81B2817184B007E7A3C /* PINFOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C81A2817184B007E7A3C /* PINFOApp.swift */; };
+		AE62C81D2817184B007E7A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C81C2817184B007E7A3C /* ContentView.swift */; };
+		AE62C81F2817184C007E7A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE62C81E2817184C007E7A3C /* Assets.xcassets */; };
+		AE62C8222817184C007E7A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE62C8212817184C007E7A3C /* Preview Assets.xcassets */; };
+		AE62C8242817184C007E7A3C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C8232817184C007E7A3C /* Persistence.swift */; };
+		AE62C8272817184C007E7A3C /* PINFO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE62C8252817184C007E7A3C /* PINFO.xcdatamodeld */; };
+		AE62C8312817184C007E7A3C /* PINFOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C8302817184C007E7A3C /* PINFOTests.swift */; };
+		AE62C83B2817184C007E7A3C /* PINFOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C83A2817184C007E7A3C /* PINFOUITests.swift */; };
+		AE62C83D2817184C007E7A3C /* PINFOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C83C2817184C007E7A3C /* PINFOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE62C82D2817184C007E7A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE62C80F2817184B007E7A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE62C8162817184B007E7A3C;
+			remoteInfo = PINFO;
+		};
+		AE62C8372817184C007E7A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE62C80F2817184B007E7A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE62C8162817184B007E7A3C;
+			remoteInfo = PINFO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE62C8172817184B007E7A3C /* PINFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINFO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE62C81A2817184B007E7A3C /* PINFOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINFOApp.swift; sourceTree = "<group>"; };
+		AE62C81C2817184B007E7A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE62C81E2817184C007E7A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE62C8212817184C007E7A3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE62C8232817184C007E7A3C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AE62C8262817184C007E7A3C /* PINFO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PINFO.xcdatamodel; sourceTree = "<group>"; };
+		AE62C82C2817184C007E7A3C /* PINFOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINFOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE62C8302817184C007E7A3C /* PINFOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINFOTests.swift; sourceTree = "<group>"; };
+		AE62C8362817184C007E7A3C /* PINFOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINFOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE62C83A2817184C007E7A3C /* PINFOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINFOUITests.swift; sourceTree = "<group>"; };
+		AE62C83C2817184C007E7A3C /* PINFOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINFOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE62C8142817184B007E7A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62C8292817184C007E7A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62C8332817184C007E7A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE62C80E2817184B007E7A3C = {
+			isa = PBXGroup;
+			children = (
+				AE62C8192817184B007E7A3C /* PINFO */,
+				AE62C82F2817184C007E7A3C /* PINFOTests */,
+				AE62C8392817184C007E7A3C /* PINFOUITests */,
+				AE62C8182817184B007E7A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE62C8182817184B007E7A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE62C8172817184B007E7A3C /* PINFO.app */,
+				AE62C82C2817184C007E7A3C /* PINFOTests.xctest */,
+				AE62C8362817184C007E7A3C /* PINFOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE62C8192817184B007E7A3C /* PINFO */ = {
+			isa = PBXGroup;
+			children = (
+				AE62C81A2817184B007E7A3C /* PINFOApp.swift */,
+				AE62C81C2817184B007E7A3C /* ContentView.swift */,
+				AE62C81E2817184C007E7A3C /* Assets.xcassets */,
+				AE62C8232817184C007E7A3C /* Persistence.swift */,
+				AE62C8252817184C007E7A3C /* PINFO.xcdatamodeld */,
+				AE62C8202817184C007E7A3C /* Preview Content */,
+			);
+			path = PINFO;
+			sourceTree = "<group>";
+		};
+		AE62C8202817184C007E7A3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE62C8212817184C007E7A3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE62C82F2817184C007E7A3C /* PINFOTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE62C8302817184C007E7A3C /* PINFOTests.swift */,
+			);
+			path = PINFOTests;
+			sourceTree = "<group>";
+		};
+		AE62C8392817184C007E7A3C /* PINFOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE62C83A2817184C007E7A3C /* PINFOUITests.swift */,
+				AE62C83C2817184C007E7A3C /* PINFOUITestsLaunchTests.swift */,
+			);
+			path = PINFOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE62C8162817184B007E7A3C /* PINFO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE62C8402817184C007E7A3C /* Build configuration list for PBXNativeTarget "PINFO" */;
+			buildPhases = (
+				AE62C8132817184B007E7A3C /* Sources */,
+				AE62C8142817184B007E7A3C /* Frameworks */,
+				AE62C8152817184B007E7A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PINFO;
+			productName = PINFO;
+			productReference = AE62C8172817184B007E7A3C /* PINFO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE62C82B2817184C007E7A3C /* PINFOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE62C8432817184C007E7A3C /* Build configuration list for PBXNativeTarget "PINFOTests" */;
+			buildPhases = (
+				AE62C8282817184C007E7A3C /* Sources */,
+				AE62C8292817184C007E7A3C /* Frameworks */,
+				AE62C82A2817184C007E7A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE62C82E2817184C007E7A3C /* PBXTargetDependency */,
+			);
+			name = PINFOTests;
+			productName = PINFOTests;
+			productReference = AE62C82C2817184C007E7A3C /* PINFOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE62C8352817184C007E7A3C /* PINFOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE62C8462817184C007E7A3C /* Build configuration list for PBXNativeTarget "PINFOUITests" */;
+			buildPhases = (
+				AE62C8322817184C007E7A3C /* Sources */,
+				AE62C8332817184C007E7A3C /* Frameworks */,
+				AE62C8342817184C007E7A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE62C8382817184C007E7A3C /* PBXTargetDependency */,
+			);
+			name = PINFOUITests;
+			productName = PINFOUITests;
+			productReference = AE62C8362817184C007E7A3C /* PINFOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE62C80F2817184B007E7A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AE62C8162817184B007E7A3C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					AE62C82B2817184C007E7A3C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AE62C8162817184B007E7A3C;
+					};
+					AE62C8352817184C007E7A3C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AE62C8162817184B007E7A3C;
+					};
+				};
+			};
+			buildConfigurationList = AE62C8122817184B007E7A3C /* Build configuration list for PBXProject "PINFO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE62C80E2817184B007E7A3C;
+			productRefGroup = AE62C8182817184B007E7A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE62C8162817184B007E7A3C /* PINFO */,
+				AE62C82B2817184C007E7A3C /* PINFOTests */,
+				AE62C8352817184C007E7A3C /* PINFOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE62C8152817184B007E7A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE62C8222817184C007E7A3C /* Preview Assets.xcassets in Resources */,
+				AE62C81F2817184C007E7A3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62C82A2817184C007E7A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62C8342817184C007E7A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE62C8132817184B007E7A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE62C8242817184C007E7A3C /* Persistence.swift in Sources */,
+				AE62C81D2817184B007E7A3C /* ContentView.swift in Sources */,
+				AE62C8272817184C007E7A3C /* PINFO.xcdatamodeld in Sources */,
+				AE62C81B2817184B007E7A3C /* PINFOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62C8282817184C007E7A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE62C8312817184C007E7A3C /* PINFOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62C8322817184C007E7A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE62C83B2817184C007E7A3C /* PINFOUITests.swift in Sources */,
+				AE62C83D2817184C007E7A3C /* PINFOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE62C82E2817184C007E7A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE62C8162817184B007E7A3C /* PINFO */;
+			targetProxy = AE62C82D2817184C007E7A3C /* PBXContainerItemProxy */;
+		};
+		AE62C8382817184C007E7A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE62C8162817184B007E7A3C /* PINFO */;
+			targetProxy = AE62C8372817184C007E7A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE62C83E2817184C007E7A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE62C83F2817184C007E7A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE62C8412817184C007E7A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PINFO/Preview Content\"";
+				DEVELOPMENT_TEAM = 99RP66V8NR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.inquisition.PINFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE62C8422817184C007E7A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PINFO/Preview Content\"";
+				DEVELOPMENT_TEAM = 99RP66V8NR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.inquisition.PINFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE62C8442817184C007E7A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RP66V8NR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.inquisition.PINFOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PINFO.app/PINFO";
+			};
+			name = Debug;
+		};
+		AE62C8452817184C007E7A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RP66V8NR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.inquisition.PINFOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PINFO.app/PINFO";
+			};
+			name = Release;
+		};
+		AE62C8472817184C007E7A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RP66V8NR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.inquisition.PINFOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PINFO;
+			};
+			name = Debug;
+		};
+		AE62C8482817184C007E7A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RP66V8NR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.inquisition.PINFOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PINFO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE62C8122817184B007E7A3C /* Build configuration list for PBXProject "PINFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE62C83E2817184C007E7A3C /* Debug */,
+				AE62C83F2817184C007E7A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE62C8402817184C007E7A3C /* Build configuration list for PBXNativeTarget "PINFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE62C8412817184C007E7A3C /* Debug */,
+				AE62C8422817184C007E7A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE62C8432817184C007E7A3C /* Build configuration list for PBXNativeTarget "PINFOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE62C8442817184C007E7A3C /* Debug */,
+				AE62C8452817184C007E7A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE62C8462817184C007E7A3C /* Build configuration list for PBXNativeTarget "PINFOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE62C8472817184C007E7A3C /* Debug */,
+				AE62C8482817184C007E7A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE62C8252817184C007E7A3C /* PINFO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE62C8262817184C007E7A3C /* PINFO.xcdatamodel */,
+			);
+			currentVersion = AE62C8262817184C007E7A3C /* PINFO.xcdatamodel */;
+			path = PINFO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE62C80F2817184B007E7A3C /* Project object */;
+}
